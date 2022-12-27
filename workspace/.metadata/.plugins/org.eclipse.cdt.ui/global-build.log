@@ -1,0 +1,75 @@
+23:32:09 **** Build of configuration gcc-debug for project swim ****
+make MODE=debug all 
+cd src && make
+make[1]: Entering directory '/headless/seams-swim/swim/src'
+externalControl/AdaptInterface.cc
+managers/adaptation/BaseAdaptationManager.cc
+managers/adaptation/ReactiveAdaptationManager.cc
+managers/adaptation/ReactiveAdaptationManager2.cc
+managers/adaptation/UtilityScorer.cc
+managers/execution/AddServerTactic.cc
+managers/execution/ExecutionManagerHAProxy.cc
+managers/execution/ExecutionManagerMod.cc
+managers/execution/ExecutionManagerModBase.cc
+managers/execution/MacroTactic.cc
+managers/execution/RemoveServerTactic.cc
+managers/execution/SetBrownoutTactic.cc
+managers/execution/SetDimmerTactic.cc
+managers/execution/Tactic.cc
+managers/monitor/HAProxyProbe.cc
+managers/monitor/IProbe.cc
+managers/monitor/SimpleMonitor.cc
+managers/monitor/SimProbe.cc
+model/Configuration.cc
+model/Environment.cc
+model/Model.cc
+model/Observations.cc
+modules/ArrivalMonitor.cc
+modules/MTBrownoutServer.cc
+modules/MTServer.cc
+modules/PassiveQueueDyn.cc
+modules/PredictableRandomSource.cc
+modules/PredictableRateSource.cc
+modules/PredictableSource.cc
+util/GMcQueue.cc
+util/HAProxySocketCommand.cc
+util/MMcQueue.cc
+util/ServerUtilization.cc
+util/TimeWindowStats.cc
+util/Utils.cc
+managers/execution/BootComplete_m.cc
+Creating executable: ../out/gcc-debug/src/swim_dbg
+make[1]: Leaving directory '/headless/seams-swim/swim/src'
+23:38:56 **** Incremental Build of configuration gcc-debug for project swim ****
+make MODE=debug all 
+cd src && make
+make[1]: Entering directory '/headless/seams-swim/swim/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/headless/seams-swim/swim/src'
+23:38:57 **** Incremental Build of configuration gcc-debug for project swim ****
+make MODE=debug all 
+cd src && make
+make[1]: Entering directory '/headless/seams-swim/swim/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/headless/seams-swim/swim/src'
+23:39:04 **** Incremental Build of configuration gcc-debug for project swim ****
+make MODE=debug all 
+cd src && make
+make[1]: Entering directory '/headless/seams-swim/swim/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/headless/seams-swim/swim/src'
+12:03:17 **** Build of configuration gcc-debug for project swim ****
+make MODE=debug all 
+cd src && make
+make[1]: Entering directory '/headless/seams-swim/swim/src'
+managers/adaptation/CrashAdaptationManager.cc
+managers/adaptation/ReactiveAdaptationManager.cc
+managers/adaptation/ReactiveAdaptationManager2.cc
+Creating executable: ../out/gcc-debug/src/swim_dbg
+make[1]: Leaving directory '/headless/seams-swim/swim/src'
+12:03:38 **** Incremental Build of configuration gcc-debug for project swim ****
+make MODE=debug all 
+cd src && make
+make[1]: Entering directory '/headless/seams-swim/swim/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/headless/seams-swim/swim/src'

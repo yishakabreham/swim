@@ -1,0 +1,9 @@
+12:03:38 **** Incremental Build of configuration gcc-debug for project swim ****
+make MODE=debug all 
+cd src && make
+make[1]: Entering directory '/headless/seams-swim/swim/src'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/headless/seams-swim/swim/src'
+
+12:03:38 Build Finished (took 214ms)
+
