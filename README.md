@@ -4,7 +4,7 @@
 
 This is the repository of the Self-Adaptive Software project about Server Specification and Server Crashing Extension of SWIM (A Simulator of Web Infrastructure and Management). The server specification extension is implemented by extending the Router class of Omnet++. It can be seen in [Router.h](https://github.com/yishakabreham/swim/blob/main/queueinglib/Router.h), [Router.cc](https://github.com/yishakabreham/swim/blob/main/queueinglib/Router.cc), and [Router.ned](https://github.com/yishakabreham/swim/blob/main/queueinglib/Router.ned). The server crash extension is implemented by new adaptation manager CrashAdaptationManager which can be seen in [CrashAdaptationManager.ned](https://github.com/yishakabreham/swim/blob/main/swim/src/managers/adaptation/CrashAdaptationManager.ned), [CrashAdaptationManager.cc](https://github.com/yishakabreham/swim/blob/main/swim/src/managers/adaptation/CrashAdaptationManager.cc), [CrashAdaptationManager.h](https://github.com/yishakabreham/swim/blob/main/swim/src/managers/adaptation/CrashAdaptationManager.h). 
 
-**Installation**
+**Installation of SWIM**
 
 This extension is built on the top of SWIM. SWIM uses Docker containers to automate deployment of the simulation into a virtual container. Docker is available for free at http://docker.com. Docker must be installed in your environment. The community edition is sufficient for running SWIM, which can be downloaded from here. SWIM itself is hosted on Docker Hub.
 
