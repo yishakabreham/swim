@@ -11,11 +11,13 @@ This extension is built on the top of SWIM. SWIM uses Docker containers to autom
 As mentioned, SWIM is hosted on Docker Hub, and online repository for Docker containers. You can follow the Creating and connecting to a container part [here](https://github.com/cps-sei/swim). Because we cannot build our docker image for the virtual machine, in order to use the extension there will be need manual setup to implement the extension. 
 
 **Installation of Server Specification Extension**
+
 In order to implement new algorithm we need to replace all the Router code in `~/seams-swim/queueinglib` with this [Router.h](https://github.com/yishakabreham/swim/blob/main/queueinglib/Router.h), [Router.cc](https://github.com/yishakabreham/swim/blob/main/queueinglib/Router.cc), and [Router.ned](https://github.com/yishakabreham/swim/blob/main/queueinglib/Router.ned). 
 
 After that in `~/seams-swim/queueinglib` run the command `make` to take the effect. 
 
 **Installation of Server Crashing Extension**
+
 In order to implement server crashing extension we need to add new CrashAdaptationManager code in `~/seams-swim/swim/src/managers/adaptation`. The code that need to be added are [CrashingAdaptationManager.cc](https://github.com/yishakabreham/swim/blob/main/swim/src/managers/adaptation/CrashAdaptationManager.cc), [CrashingAdaptationManager.ned](https://github.com/yishakabreham/swim/blob/main/swim/src/managers/adaptation/CrashAdaptationManager.ned), and [CrashingAdaptationManager.h](https://github.com/yishakabreham/swim/blob/main/swim/src/managers/adaptation/CrashAdaptationManager.h). 
 
 After that in `~/seams-swim/swim` run the command `make` to take the effect. 
@@ -23,6 +25,7 @@ After that in `~/seams-swim/swim` run the command `make` to take the effect.
 **Running Server Specification Extension**
 
 **Configuration:** 
+
 The configuration to run server specification extension is defined in swim_sa.ned. In order to change the routing algorithm, routingAlgorithm under the LoadBalancer part can be defined. The supported algorithm now is “roundRobin” and “weightedRoundRobin”. In order to add server weight, serverWeight under LoadBalancer part can be defined with comma separated string (e.g. “3,2,1,1,1”). The sample is below: 
 
     loadBalancer: Router {
